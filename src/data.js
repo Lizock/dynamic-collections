@@ -1,4 +1,4 @@
-const pokemons = [
+export default [
   {
     id: 1,
     name: "Bulbasaur",
