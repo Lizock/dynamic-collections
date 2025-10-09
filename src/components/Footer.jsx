@@ -1,5 +1,8 @@
 export default function Footer() {
     return (
-        <p>All rights reserved. Created by Juno & Liza.</p>
+        <footer className="footer">
+            <p>All rights reserved. Created by Juno & Liza.</p>
+        </footer>
     );
+
 }

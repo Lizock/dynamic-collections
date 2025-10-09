@@ -7,7 +7,7 @@ body {
 /* Header style */
 .header {
   background-color: #ffcb05; /* Pikachu color */
-  color: #2a75bb; /* Pokémon blue */
+  color: #483a0b; /* Pokémon blue */
   text-align: center;
   padding: 1rem;
   font-weight: bold;
@@ -15,3 +15,20 @@ body {
   letter-spacing: 1px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.2);
 }
+
+.box {
+  width: 50%;
+  margin: 10px auto; 
+  padding: 20px;
+  background-color: #9c9a8623; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* .footer.p {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  text-align: center;
+  transform: translateX(-50%);
+} */

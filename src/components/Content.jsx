@@ -1,4 +1,5 @@
 export default function Content(props) {
+  
   const { name, type, hp, attack, defense, abilities, image } = props.content;
 
   const getEmoji = (typeArray) => {
@@ -21,7 +22,7 @@ export default function Content(props) {
   const emoji = getEmoji(type);
 
   return (
-    <>
+    <div className="box">
       <h2>
         {name}
       </h2>
@@ -40,6 +41,7 @@ export default function Content(props) {
       </ul>
 
       <img src={image} alt={name} />
-    </>
+
+    </div>
   );
 }
