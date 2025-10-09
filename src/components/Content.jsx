@@ -1,19 +1,19 @@
 export default function Content(props) {
   
-  const { name, type, hp, attack, defense, abilities, image } = props.content;
+  const { type, hp, attack, defense, abilities, image } = props.content;
 
   const getEmoji = (typeArray) => {
     const emojis = [];
 
-    typeArray.forEach((t) => {
-      if (t === "Grass") emojis.push("🌿");
-      if (t === "Poison") emojis.push("🧪");
-      if (t === "Fire") emojis.push("🔥");
-      if (t === "Flying") emojis.push("🕊️");
-      if (t === "Water") emojis.push("💧");
-      if (t === "Electric") emojis.push("⚡");
-      if (t === "Normal") emojis.push("⚪");
-      if (t === "Fairy") emojis.push("🧚‍♀️");
+    typeArray.forEach((T) => {
+      if (t == "Grass") emojis.push("🌿");
+      if (t == "Poison") emojis.push("🧪");
+      if (t == "Fire") emojis.push("🔥");
+      if (t == "Flying") emojis.push("🕊️");
+      if (t == "Water") emojis.push("💧");
+      if (t == "Electric") emojis.push("⚡");
+      if (t == "Normal") emojis.push("⚪");
+      if (t == "Fairy") emojis.push("🧚‍♀️");
     });
 
     return emojis.join("");
@@ -22,7 +22,7 @@ export default function Content(props) {
   const emoji = getEmoji(type);
 
   return (
-    <div className="box">
+    <div >
       <h2>
         {name}
       </h2>
